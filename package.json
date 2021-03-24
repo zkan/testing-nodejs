@@ -1,0 +1,19 @@
+{
+  "name": "testing-nodejs",
+  "version": "1.0.0",
+  "description": "Testing Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkan/testing-nodejs.git"
+  },
+  "author": "Kan Ouivirach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zkan/testing-nodejs/issues"
+  },
+  "homepage": "https://github.com/zkan/testing-nodejs#readme"
+}
