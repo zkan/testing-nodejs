@@ -3,9 +3,16 @@
 const getUsers = async url => {
   //const result = await axios.get(url);
   const result = {
-    data: {
-      id: 1
-    }
+    data: [
+      {
+        id: 1,
+        username: 'zkan',
+      },
+      {
+        id: 2,
+        username: 'odds',
+      },
+    ]
   }
   return result.data
 }
@@ -14,8 +21,9 @@ const getUserById = async (url, userId) => {
   //const result = await axios.get(`${url}${userId}`);
   const result = {
     data: {
-      id: 1
-    }
+      id: 1,
+      username: 'zkan',
+    },
   }
   return result.data
 }
