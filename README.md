@@ -1,2 +1,7 @@
-# testing-nodejs
-Testing Node.js
+# Testing Node.js
+
+## Compiling
+
+```sh
+npm run compile src/fizzbuzz.ts
+```
