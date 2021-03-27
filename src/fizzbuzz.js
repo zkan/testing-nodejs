@@ -1,7 +1,6 @@
-const fizzbuzz = (number) => {
-  if (number == 3) {
-    return 'Fizz'
-  }
-}
-
-module.exports = fizzbuzz
+var fizzbuzz = function (input) {
+    if (input % 3 == 0) {
+        return 'Fizz';
+    }
+};
+module.exports = fizzbuzz;
