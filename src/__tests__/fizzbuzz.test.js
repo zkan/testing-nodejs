@@ -10,4 +10,14 @@ describe('FizzBuzz', () => {
     results = fizzbuzz(6)
     expect(results).toBe('Fizz')
   })
+
+  test('take input 5 then get Buzz', () => {
+    results = fizzbuzz(5)
+    expect(results).toBe('Buzz')
+  })
+
+  test('take input 10 then get Buzz', () => {
+    results = fizzbuzz(10)
+    expect(results).toBe('Buzz')
+  })
 })
