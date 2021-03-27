@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/zkan/testing-nodejs#readme",
   "devDependencies": {
-    "jest": "^26.6.3"
+    "jest": "^26.6.3",
+    "typescript": "^4.2.3"
   },
   "dependencies": {
     "axios": "^0.21.1"
